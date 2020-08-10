@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>điểm sinh viên</title>
+</head>
+<body>
+<script>
+    let inputPhysical;
+    let inputChemistry;
+    let inputBiological;
+    inputPhysical = prompt("Enter the Physical");
+    inputChemistry = prompt("Enter the Chemistry");
+    inputBiological = prompt("Enter the Biological");
+    let Physical = parseInt(inputPhysical);
+    let Chemistry = parseInt(inputChemistry);
+    let Biological = parseInt(inputBiological);
+    let score = (Physical+Chemistry+Biological)/3;
+    let total = Physical+Chemistry+Biological ;
+    document.write(" Điểm trung bình : "+ score);
+    document.write("tổng điểm :"+ total);
+</script>
+</body>
+</html>
